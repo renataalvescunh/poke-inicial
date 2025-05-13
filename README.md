@@ -1,6 +1,6 @@
 # Pokémon Starter Picker
 
-![Favicon](assets/imgs/favicon.png)
+![Favicon](poke-starter/assets/favicon.png)
 
 Um site para escolher seu Pokémon inicial de todas as regiões!
 
