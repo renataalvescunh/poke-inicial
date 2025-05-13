@@ -1,28 +1,31 @@
-# Pokémon Starter Picker
+<h1 align="center" id="project_name">
+  <br/>
+  <!-- Link externo ou local(.github). -->
+  <img src="https://raw.githubusercontent.com/renataalvescunh/poke-starter/refs/heads/main/assets/favicon.png" alt="Logo" width="100px">
+  <br/>
+Poke-inicial  <br />
+</h1>
 
-![Favicon](poke-starter/assets/favicon.png)
+Aqui está uma forma divertida para escolher seus Pokémon iniciais favoritos de cada região. Organize-os em uma *tier list* interativa e compartilhe sua opinião com outros fãs de Pokémon!
 
-Um site para escolher seu Pokémon inicial de todas as regiões!
 
-## Funcionalidades
+## ⚡ Como Funciona
 
-- Visualize todos os Pokémon iniciais de cada geração
-- Compare características e tipos
-- Escolha seu favorito
+1. **Escolha a Região**: Clique em uma célula vazia para selecionar uma região.
+2. **Selecione o Pokémon**: Escolha o Pokémon inicial de sua preferência para a região selecionada.
+3. **Veja Sua Seleção**: As imagens dos Pokémon serão carregadas automaticamente.
 
-## Como usar
 
-1. Clone o repositório
-2. Abra o arquivo `index.html` no navegador
-3. Explore e escolha seu Pokémon inicial
 
-## Tecnologias
+## 💻 Tecnologias Usadas
 
-- HTML, CSS, JavaScript
+- **HTML** - Estrutura básica da página
+- **CSS** - Estilos e design responsivo
+- **JavaScript** - Interatividade, carregamento dinâmico das imagens
 
-## Créditos
 
-- Imagens e dados oficiais da Pokémon Company
 
----
-Desenvolvido por [Seu Nome]
+
+
+
+
