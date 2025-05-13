@@ -1,12 +1,11 @@
 // imagensPorRegiao.js
 
 const imagensPorRegiao = {
-kanto: [
-    'poke-starter/assets/imgs/001.png',
-    'poke-starter/assets/imgs/004.png',
-    'poke-starter/assets/imgs/007.png'
-],
-
+    kanto: [
+        'assets/imgs/001.png', // Bulbasaur
+        'assets/imgs/004.png', // Charmander
+        'assets/imgs/007.png' // Squirtle
+    ],
     johto: [
         'assets/imgs/152.png',
         'assets/imgs/155.png',
