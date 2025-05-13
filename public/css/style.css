@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+html {
+    background-color: #c1ecc3;
+}
+
+.font-cute {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5em;
+}
+
+#tierListTable {
+    width: 50%;
+    margin: 2em auto;
+    background-color: #000000;
+    border-radius: 3px;
+    margin-bottom: 10em;
+    border: 6px solid #ff0000;
+    border-top: 16px solid #ff0000;
+    border-bottom: 16px solid #ff0000;
+    border-radius: 18px 18px 28px 28px / 18px 18px 40px 40px;
+    position: relative;
+    box-shadow:
+        0 0 0 8px #ff0000,
+        0 0 0 12px #222,
+        0 0 0 16px #fff,
+        0 0 24px 8px rgba(9, 255, 0, 0.2);
+
+    &::before { 
+        content: '';
+        position: absolute;
+        left: 25px;
+        top: -19px;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(74, 198, 255);
+        border: 2px solid #222;
+        border-radius: 50%;
+        box-shadow: 0 0 3px 2px #c7c7c7, 0 0 0 6px #fff;
+        z-index: 2;
+    }
+
+    
+}
+
+.kanto {
+    background-color: #b2d7ff;
+}
+
+.johto {
+    background-color: #ffe7b4;
+}
+
+.hoenn {
+    background-color: #f0c8e3;
+}
+
+.sinnoh {
+    background-color: #e3d6ff;
+}
+
+.unova {
+    background-color: #afe0c2;
+}
+
+.kalos {
+    background-color: #fff3d6;
+}
+
+.alola {
+    background-color: #ffbc9d;
+}
+
+.galar {
+    background-color: #f5becb;
+}
+
+.paldea {
+    background-color: #ffb1d7;
+}
+
+.hisui {
+    background-color: #bfbbdf;
+}
+
+
+
+#tierListTable th, #tierListTable td {
+    padding: 10px;
+    text-align: center;
+    height: 80px;
+    border-radius: 1px;
+}
+
+#tierListTable td {
+    font-size: 0.8em;
+    text-shadow: 0 1px 0 #fff, 0 2px 2px #888;
+
+}
+
+#tierListTable th {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1em;
+    font-weight: bold;
+    height: 86px;
+    background: linear-gradient(180deg, #f5f5f5 0%, #b9b9b9 40%, #d6d6d6 100%);
+    color: #222;
+    text-shadow: 0 1px 0 #fff, 0 2px 2px #888;
+    box-shadow: 0 2px 8px 0 rgba(80,80,80,0.15) inset, 0 1px 0 #fff inset;
+}
+
+#tierListTable .hisui  {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#tierListTable #celula10 {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.vazia {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.vazia:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 0 0 2px #777777, 0 0 0 3px #141414, 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+
+#modalImagem {
+    display: none;
+    position: absolute;
+    background-color: #e6e6e6;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 1px;
+    box-shadow: 0 0 0 8px #c9c9c9, 0 0 0 10px #141414, 0 0 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+#modalImagem img {
+    max-width: 80px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#modalImagem img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+
+#fecharModal {
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border: none;
+    padding: 5px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 2px #c9c9c9, 0 0 0 3px #141414, 0 0 4px rgba(0, 0, 0, 0.5);
+}
+#fecharModal:hover {
+    background-color: #e0e0e0;
+}
+
+.container-footer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    background-color: #8afc90;
+    padding: 20px;    
+}
+
+#tabela-container #btnSalvarImagem {
+    display: block;
+    position: absolute;
+    bottom: -40em;
+    left: 44em;
+    margin: 2em auto 0 auto;
+    background-color: #dbdbdb;
+    color: #000000;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.7em;
+    padding: 12px 32px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px 0 rgba(80,80,80,0.15);
+    cursor: pointer;
+    background: linear-gradient(180deg, #f5f5f5 0%, #b9b9b9 40%, #d6d6d6 100%);
+    text-shadow: 0 1px 0 #fff, 0 2px 2px #888;
+
+
+  }
+
+  #tabela-container #btnSalvarImagem:hover {
+    color: #000000;
+    transition: background-color 0.2s;
+    background: linear-gradient(180deg, #d3d3d3 0%, #d8d8d8 40%, #b3b3b3 100%);
+
+  }
+
+@media (max-width: 900px) {
+    #tierListTable {
+        width: 80%;
+    }
+    #tabela-container #btnSalvarImagem {
+        position: static;
+        display: block;
+        margin: -8em auto 5em auto;
+        width: 80%;
+    }
+    #modalImagem {
+        width: 50%;
+        height: 14%;
+        max-width: 400px;
+    }
+    #modalImagem img {
+        width: 21%;
+        height: auto;
+    }
+}
+
+
+
+
+.container-footer a {
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.2s;
+    }
+
+    .container-footer a:hover {
+        color: #e44d4d;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Poke-inicial </title>
+    <link rel="stylesheet" href="/css/style.css">  
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="shortcut icon" href="/assets/imgs/favicon.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div id="tabela-container">
+<main> 
+    <table id="tierListTable">
+        <thead>
+            <tr>
+                <th class="font-cute"> Região </th>
+                <th> Eu escolho você! </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="kanto"> Kanto </td>
+                <td class="vazia" id="celula1" data-regiao="kanto"></td>
+            </tr>
+            <tr>
+                <td class="johto"> Johto </td>
+                <td class="vazia" id="celula2" data-regiao="johto"></td>
+            </tr>
+            <tr>
+                <td class="hoenn"> Hoenn </td>
+                <td class="vazia" id="celula3" data-regiao="hoenn"></td>
+            </tr>
+            <tr>
+                <td class="sinnoh"> Sinnoh </td>
+                <td class="vazia" id="celula4" data-regiao="sinnoh"></td>
+            </tr>
+            <tr>
+                <td class="unova"> Unova </td>
+                <td class="vazia" id="celula5" data-regiao="unova"></td>
+            </tr>
+            <tr>
+                <td class="kalos"> Kalos </td>
+                <td class="vazia" id="celula6" data-regiao="kalos"></td>
+            </tr>
+            <tr>
+                <td class="alola"> Alola </td>
+                <td class="vazia" id="celula7" data-regiao="alola"></td>
+            </tr>
+            <tr>
+                <td class="galar"> Galar </td>
+                <td class="vazia" id="celula8" data-regiao="galar"></td>
+            </tr>
+            <tr>
+                <td class="paldea"> Paldea </td>
+                <td class="vazia" id="celula9" data-regiao="paldea"></td>
+            </tr>
+            <tr>
+                <td class="hisui"> Hisui </td>
+                <td class="vazia" id="celula10" data-regiao="hisui"></td>
+        </tbody>
+    </table>
+        <button id="btnSalvarImagem" onclick="salvarImagem()">Salvar Tabela como Imagem</button>
+</main>
+
+
+<footer>
+    <div class="container-footer">
+        <p> Desenvolvido por <a href="https://github.com/renataalvescunh" target="_blank"> Renata </a></p>
+    </div>
+    </footer>
+
+<!-- Modal -->
+<div id="modalImagem" class="modal"></div>
+
+<script src="/js/script.js"></script> 
+<script src="/js/print.js"></script> 
+
+
+</div>
+</body>
+</html>
