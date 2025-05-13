@@ -1,32 +1,28 @@
-# ![Logo](./favicon.ico) Mago Tier
+# Pokémon Starter Picker
 
-Bem-vindo ao **Mago Tier**!
+![Favicon](assets/imgs/favicon.png)
 
-Organize e classifique magias de RPG de forma simples e eficiente.
+Um site para escolher seu Pokémon inicial de todas as regiões!
 
-## Recursos
+## Funcionalidades
 
-- Lista de magias personalizável
-- Filtros por nível, escola e classe
-- Interface intuitiva
+- Visualize todos os Pokémon iniciais de cada geração
+- Compare características e tipos
+- Escolha seu favorito
 
 ## Como usar
 
 1. Clone o repositório
-2. Instale as dependências
-3. Execute o projeto
+2. Abra o arquivo `index.html` no navegador
+3. Explore e escolha seu Pokémon inicial
 
-```bash
-git clone https://github.com/seu-usuario/mago-tier.git
-cd mago-tier
-npm install
-npm start
-```
+## Tecnologias
 
-## Contribuição
+- HTML, CSS, JavaScript
 
-Pull requests são bem-vindos!
+## Créditos
+
+- Imagens e dados oficiais da Pokémon Company
 
 ---
-
-Feito com 💜 por [Seu Nome]
+Desenvolvido por [Seu Nome]
