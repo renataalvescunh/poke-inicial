@@ -8,7 +8,7 @@
             scale: 2, 
         }).then(canvas => {
             const link = document.createElement("a");
-            link.download = "tabela-pokemon.png";
+            link.download = "meus-queridos-inicias.png";
             link.href = canvas.toDataURL("image/png");
             link.click();
         });

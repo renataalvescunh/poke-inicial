@@ -3,12 +3,25 @@
 
 
 html {
-    background-color: #c1ecc3;
+    background: linear-gradient(270deg, #b8f8bb, #b2d7ff, #ffe7b4, #f0c8e3, #d4b8f8);
+    background-size: 1000% 1000%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .font-cute {
     font-family: "Press Start 2P", system-ui;
-    font-size: 1.5em;
 }
 
 #tierListTable {
@@ -17,9 +30,9 @@ html {
     background-color: #000000;
     border-radius: 3px;
     margin-bottom: 10em;
-    border: 6px solid #ff0000;
-    border-top: 16px solid #ff0000;
-    border-bottom: 16px solid #ff0000;
+    border: 15px solid #d42121;
+    border-top: 60px solid #d42121;
+    border-bottom: 30px solid #d42121;
     border-radius: 18px 18px 28px 28px / 18px 18px 40px 40px;
     position: relative;
     box-shadow:
@@ -32,17 +45,15 @@ html {
         content: '';
         position: absolute;
         left: 25px;
-        top: -19px;
-        width: 20px;
-        height: 20px;
-        background-color: rgb(74, 198, 255);
+        top: -48px;
+        width: 30px;
+        height: 30px;
+        background: radial-gradient(circle at 60% 40%, #afdfff 40%, #19699e 70%, #19699e 100%);
         border: 2px solid #222;
         border-radius: 50%;
-        box-shadow: 0 0 3px 2px #c7c7c7, 0 0 0 6px #fff;
+        box-shadow: 0 0 1px 1px #c7c7c7, 0 0 0 3px #fff;
         z-index: 2;
     }
-
-    
 }
 
 .kanto {
@@ -95,30 +106,30 @@ html {
 }
 
 #tierListTable td {
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-shadow: 0 1px 0 #fff, 0 2px 2px #888;
 
 }
 
 #tierListTable th {
     font-family: "Press Start 2P", system-ui;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
     height: 86px;
     background: linear-gradient(180deg, #f5f5f5 0%, #b9b9b9 40%, #d6d6d6 100%);
     color: #222;
     text-shadow: 0 1px 0 #fff, 0 2px 2px #888;
     box-shadow: 0 2px 8px 0 rgba(80,80,80,0.15) inset, 0 1px 0 #fff inset;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 #tierListTable .hisui  {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 10px;
 }
 
 #tierListTable #celula10 {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 10px;
 }
 
 
@@ -170,21 +181,14 @@ html {
     background-color: #e0e0e0;
 }
 
-.container-footer  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.7em;
-    background-color: #8afc90;
-    padding: 20px;    
-}
+
 
 #tabela-container #btnSalvarImagem {
     display: block;
     position: absolute;
-    bottom: -40em;
+    bottom: -46em;
     left: 44em;
-    margin: 2em auto 0 auto;
+    margin: 5em auto 1em auto;
     background-color: #dbdbdb;
     color: #000000;
     font-family: "Press Start 2P", system-ui;
@@ -192,47 +196,73 @@ html {
     padding: 12px 32px;
     border: 2px solid #000000;
     border-radius: 12px;
-    box-shadow: 0 2px 8px 0 rgba(80,80,80,0.15);
+    box-shadow: 0 2px 8px  rgba(80,80,80,0.15);
     cursor: pointer;
     background: linear-gradient(180deg, #f5f5f5 0%, #b9b9b9 40%, #d6d6d6 100%);
-    text-shadow: 0 1px 0 #fff, 0 2px 2px #888;
-
-
-  }
-
+    text-shadow: 0 1px 0 #d3d3d3, 0 2px 2px #888;
+    box-shadow:
+        0 4px 0 #223127,
+        0 8px 16px 0 #223127,
+        0 0 0 6px #fff inset,
+        0 2px 8px  rgba(250, 0, 0, 0.15);
+}
   #tabela-container #btnSalvarImagem:hover {
     color: #000000;
     transition: background-color 0.2s;
-    background: linear-gradient(180deg, #d3d3d3 0%, #d8d8d8 40%, #b3b3b3 100%);
-
+    background: linear-gradient(180deg, #797979 0%, #d8d8d8 40%, #808080 100%);
+    transform: translateY(1px) scale(1);
+    box-shadow:
+    0 4px 0 #223127,
+    0 8px 16px 0 #797979,
+    0 0 0 6px #fff inset,
+    0 2px 8px  rgba(250, 0, 0, 0.15);
   }
 
 @media (max-width: 900px) {
     #tierListTable {
         width: 80%;
     }
+
+    #tierListTable th {
+        font-size: 0.6em;
+        height: 60px;
+    }
+
+    #tierListTable td {
+        padding: 5px;
+        height: 60px;
+    }
     #tabela-container #btnSalvarImagem {
         position: static;
         display: block;
         margin: -8em auto 5em auto;
-        width: 80%;
+        width: 50%;
+        text-align: center;
+        font-size: 0.6em;
     }
     #modalImagem {
-        width: 50%;
+        width: 71%;
         height: 14%;
-        max-width: 400px;
     }
     #modalImagem img {
-        width: 21%;
+        width: 20%;
         height: auto;
     }
 }
 
 
-
+.container-footer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    color: #c0c0c0;
+    background-color: #181818;
+    padding: 20px;    
+}
 
 .container-footer a {
-    color: #000000;
+    color: #dfdfdf;
     font-weight: bold;
     transition: color 0.2s;
     }
