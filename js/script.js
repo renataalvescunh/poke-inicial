@@ -15,8 +15,8 @@ function selecionarImagem(celula) {
 
     let modalContent = ``;
     imagens.forEach(imagem => {
-        modalContent += `<img src="${imagem}" alt="Imagem" onclick="adicionarImagem('${imagem}')">`;
-    });
+        modalContent += `<img src="${imagem}" alt="Imagem" loading="lazy" onclick="adicionarImagem('${imagem}')">`;
+    });    
     modalContent += `<button id="fecharModal" onclick="fecharModal()">X</button>`;
     modal.innerHTML = modalContent;
     modal.style.display = 'block';
