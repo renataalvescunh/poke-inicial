@@ -9,19 +9,15 @@ Poke-inicial  <br />
 Aqui está uma forma divertida para escolher seus Pokémon iniciais favoritos de cada região. Organize-os em uma *tier list* interativa e compartilhe sua opinião com outros fãs de Pokémon!
 
 
-## ⚡ Como Funciona
+## ⭐ Como Funciona
 
-1. **Escolha a Região**: Clique em uma célula vazia para selecionar uma região.
-2. **Selecione o Pokémon**: Escolha o Pokémon inicial de sua preferência para a região selecionada.
-3. **Veja Sua Seleção**: As imagens dos Pokémon serão carregadas automaticamente.
-
-
+Clique nas células vazias e aguarde as imagens dos três pokemons correspodentes de cada região carregar, selecione ele e passe para a próxima célula, repetindo a mesma ação. 
 
 ## 💻 Tecnologias Usadas
 
-- **HTML** - Estrutura básica da página
-- **CSS** - Estilos e design responsivo
-- **JavaScript** - Interatividade, carregamento dinâmico das imagens
+- **HTML** - Estrutura básica da página;
+- **CSS** - Estilos e design responsivo;
+- **JavaScript** - Interatividade e carregamento dinâmico das imagens.
 
 
 
