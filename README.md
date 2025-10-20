@@ -6,8 +6,8 @@
 Poke-inicial  <br />
 </h1>
 
-Aqui está uma forma divertida para escolher seus Pokémon iniciais favoritos de cada região. Organize-os em uma *tier list* interativa e compartilhe sua opinião com outros fãs de Pokémon!
-
+Aplicação web interativa desenvolvida com HTML, CSS e JavaScript, que permite escolher e classificar os Pokémon iniciais de cada geração em uma tier list dinâmica.
+O projeto destaca o uso de manipulação de DOM, responsividade e boas práticas de UI/UX, com foco em uma experiência leve e divertida para o usuário.
 
 ## ⭐ **Como Funciona**
 
